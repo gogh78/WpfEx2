@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfEx2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEx2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="1 234,567" Grid.Row="0" Margin="2" Padding="0,15,5,0" Background="#FFC9F1E5" FontSize="22" FontWeight="Bold" FontFamily="Arial Unicode MS" TextAlignment="Right"/>
+        <Grid Grid.Row="1">
+            <UniformGrid Rows="6" Columns="4">
+                <Button Content="%" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="CE" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="C" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="←" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="1/x" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="x²" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="√x" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="÷" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="7" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="8" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="9" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="x" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="4" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="5" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="6" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="-" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="1" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="2" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="3" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="+" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="+/-" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="0" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="," BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+                <Button Content="=" Background="Gray" BorderBrush="#FF3A3737" BorderThickness="2" FontSize="16" FontWeight="Bold"/>
+
+            </UniformGrid>
+        </Grid>
+    </Grid>
+</Window>
